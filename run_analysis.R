@@ -1,11 +1,24 @@
+
+###############################################################
+## Getting and Cleaning Data - Course Project
+## M Bellettiere
+## May 2015
+###############################################################
+
+##dir.create("/getdata-014-project/UCI HAR Dataset")
+
 run_analysis <-function() {
 ##check if data exisits, if not, load data file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-  if(!file.exists("./getdata-014-project")){dir.create("./getdata-014-project")
+
+  if(!file.exists("~/getdata-014-project/UCI HAR Dataset")){
   fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download.file(fileUrl,destfile="./getdata-014-project/Dataset.zip",method="curl")
-##unzip file
-  unzip("./getdata-014-project/Dataset.zip",overwrite=TRUE)}
-## load dplyr - this will create a warning
+  download.file(fileUrl,destfile="~/getdata-014-project/Dataset.zip",method="curl")
+
+  ##unzip file
+  setwd("./getdata-014-project")
+  unzip("Dataset.zip",overwrite=TRUE)}
+
+  ## load dplyr - this will create a warning
   library(dplyr)
 
 ##load subject data
@@ -58,7 +71,5 @@ tidyd$activity <- factor(tidyd$activity, levels=act[,1],labels=act[,2])
 
 ## write final results to table "output.txt"  
 write.table(tidyd,file="output.txt", row.name=FALSE) 
-
-
 
 }
