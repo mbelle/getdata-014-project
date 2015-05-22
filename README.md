@@ -1,4 +1,7 @@
 # getdata-014-project
+##files
+run_analysis.R - downloads data, combines and processes to produce output.txt
+codebook.Rmd - details the data and variables in the output and original data set
 
 ##The steps to produce the output file are as follows:
 * check if data exisits, if not, load data file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip then unzip file. If data exisits then this is skipped.
