@@ -23,7 +23,7 @@ varTrain<-read.table("~/getdata-014-project/UCI HAR Dataset/train/X_train.txt")
 allTest<-cbind(subTest,actTest,varTest)
 allTrain<-cbind(subTrain,actTrain,varTrain)
 
-##Merges the training and the test sets to create one data set.
+##rbind the training and the test sets to create one data set.
 allObs<-rbind(allTest,allTrain)
 ##Extracts only the measurements on the mean and standard deviation for each measurement. 
 #Look for columns names containing either "mean" or "std" create vector index of the mean/std columns 
