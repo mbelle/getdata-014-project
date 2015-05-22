@@ -9,98 +9,96 @@ output: html_document
 
 This dataset contains summarized (mean) data for a number of readings taken from the original data.  Subject and Activity are included for each row. In addition, the mean value for each subject and activity have been calculated for each of the 86 measurements listed below. Full details from the original data collection are also included below.
 
-[1] "subject" : (Factor) 1:30 identifying the individual subject for whom the data was collected.   
-
- [2] "activity"  (Factor) 1:6, labels: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
- 
- [3] "tBodyAcc.mean...X"  (numeric) mean value of observations collected for individual
- 
- [4] "tBodyAcc.mean...Y"  (numeric) mean value of observations collected for individual
- 
- [5] "tBodyAcc.mean...Z"  (numeric) mean value of observations collected for individual                 
- [6] "tBodyAcc.std...X"    (numeric) mean value of observations collected for individual                
- [7] "tBodyAcc.std...Y" (numeric) mean value of observations collected for individual                   
- [8] "tBodyAcc.std...Z" (numeric) mean value of observations collected for individual
- [9] "tGravityAcc.mean...X" (numeric) mean value of observations collected for individual                
-[10] "tGravityAcc.mean...Y"  (numeric) mean value of observations collected for individual            
-[11] "tGravityAcc.mean...Z"  (numeric) mean value of observations collected for individual          
-[12] "tGravityAcc.std...X"  (numeric) mean value of observations collected for individual         
-[13] "tGravityAcc.std...Y"    (numeric) mean value of observations collected for individual       
-[14] "tGravityAcc.std...Z"   (numeric) mean value of observations collected for individual        
-[15] "tBodyAccJerk.mean...X" (numeric) mean value of observations collected for individual        
-[16] "tBodyAccJerk.mean...Y" (numeric) mean value of observations collected for individual        
-[17] "tBodyAccJerk.mean...Z"  (numeric) mean value of observations collected for individual       
-[18] "tBodyAccJerk.std...X" (numeric) mean value of observations collected for individual       
-[19] "tBodyAccJerk.std...Y" (numeric) mean value of observations collected for individual   
-[20] "tBodyAccJerk.std...Z" (numeric) mean value of observations collected for individual         
-[21] "tBodyGyro.mean...X"   (numeric) mean value of observations collected for individual               
-[22] "tBodyGyro.mean...Y"   (numeric) mean value of observations collected for individual             
-[23] "tBodyGyro.mean...Z"    (numeric) mean value of observations collected for individual              
-[24] "tBodyGyro.std...X"    (numeric) mean value of observations collected for individual               
-[25] "tBodyGyro.std...Y"      (numeric) mean value of observations collected for individual             
-[26] "tBodyGyro.std...Z"     (numeric) mean value of observations collected for individual              
-[27] "tBodyGyroJerk.mean...X"   (numeric) mean value of observations collected for individual           
-[28] "tBodyGyroJerk.mean...Y"   (numeric) mean value of observations collected for individual           
-[29] "tBodyGyroJerk.mean...Z"   (numeric) mean value of observations collected for individual           
-[30] "tBodyGyroJerk.std...X"    (numeric) mean value of observations collected for individual           
-[31] "tBodyGyroJerk.std...Y"    (numeric) mean value of observations collected for individual/activity           
-[32] "tBodyGyroJerk.std...Z"    (numeric) mean value of observations collected for individual/activity           
-[33] "tBodyAccMag.mean.."     (numeric) mean value of observations collected for individual/activity                        
-[34] "tBodyAccMag.std.."      (numeric) mean value of observations collected for individual/activity                        
-[35] "tGravityAccMag.mean.."  (numeric) mean value of observations collected for individual/activity                        
-[36] "tGravityAccMag.std.."   (numeric) mean value of observations collected for individual/activity                        
-[37] "tBodyAccJerkMag.mean.." (numeric) mean value of observations collected for individual/activity                        
-[38] "tBodyAccJerkMag.std.."  (numeric) mean value of observations collected for individual/activity                        
-[39] "tBodyGyroMag.mean.."    (numeric) mean value of observations collected for individual/activity                        
-[40] "tBodyGyroMag.std.."     (numeric) mean value of observations collected for individual/activity                        
-[41] "tBodyGyroJerkMag.mean.."  (numeric) mean value of observations collected for individual/activity                        
-[42] "tBodyGyroJerkMag.std.." (numeric) mean value of observations collected for individual/activity                        
-[43] "fBodyAcc.mean...X"  (numeric) mean value of observations collected for individual/activity                            
-[44] "fBodyAcc.mean...Y"  (numeric) mean value of observations collected for individual/activity                            
-[45] "fBodyAcc.mean...Z"  (numeric) mean value of observations collected for individual/activity                            
-[46] "fBodyAcc.std...X"   (numeric) mean value of observations collected for individual/activity                            
-[47] "fBodyAcc.std...Y"   (numeric) mean value of observations collected for individual/activity                            
-[48] "fBodyAcc.std...Z"   (numeric) mean value of observations collected for individual/activity                            
-[49] "fBodyAcc.meanFreq...X"  (numeric) mean value of observations collected for individual/activity                        
-[50] "fBodyAcc.meanFreq...Y"  (numeric) mean value of observations collected for individual/activity                        
-[51] "fBodyAcc.meanFreq...Z"  (numeric) mean value of observations collected for individual/activity                        
-[52] "fBodyAccJerk.mean...X"  (numeric) mean value of observations collected for individual/activity                        
-[53] "fBodyAccJerk.mean...Y"  (numeric) mean value of observations collected for individual/activity                        
-[54] "fBodyAccJerk.mean...Z"  (numeric) mean value of observations collected for individual/activity                        
-[55] "fBodyAccJerk.std...X"   (numeric) mean value of observations collected for individual/activity                        
-[56] "fBodyAccJerk.std...Y"   (numeric) mean value of observations collected for individual/activity                        
-[57] "fBodyAccJerk.std...Z"   (numeric) mean value of observations collected for individual/activity                        
-[58] "fBodyAccJerk.meanFreq...X" (numeric) mean value of observations collected for individual/activity                      
-[59] "fBodyAccJerk.meanFreq...Y"  (numeric) mean value of observations collected for individual/activity                      
-[60] "fBodyAccJerk.meanFreq...Z"  (numeric) mean value of observations collected for individual/activity                    
-[61] "fBodyGyro.mean...X"     (numeric) mean value of observations collected for individual/activity                        
-[62] "fBodyGyro.mean...Y"     (numeric) mean value of observations collected for individual/activity                        
-[63] "fBodyGyro.mean...Z"     (numeric) mean value of observations collected for individual/activity                        
-[64] "fBodyGyro.std...X"      (numeric) mean value of observations collected for individual/activity                        
-[65] "fBodyGyro.std...Y"      (numeric) mean value of observations collected for individual/activity                        
-[66] "fBodyGyro.std...Z"      (numeric) mean value of observations collected for individual/activity                        
-[67] "fBodyGyro.meanFreq...X" (numeric) mean value of observations collected for individual/activity                        
-[68] "fBodyGyro.meanFreq...Y" (numeric) mean value of observations collected for individual/activity                        
-[69] "fBodyGyro.meanFreq...Z" (numeric) mean value of observations collected for individual/activity                        
-[70] "fBodyAccMag.mean.."     (numeric) mean value of observations collected for individual/activity                        
-[71] "fBodyAccMag.std.."      (numeric) mean value of observations collected for individual/activity                        
-[72] "fBodyAccMag.meanFreq.." (numeric) mean value of observations collected for individual/activity                        
-[73] "fBodyBodyAccJerkMag.mean.." (numeric) mean value of observations collected for individual/activity                    
-[74] "fBodyBodyAccJerkMag.std.."  (numeric) mean value of observations collected for individual/activity                      
-[75] "fBodyBodyAccJerkMag.meanFreq.."      (numeric) mean value of observations collected for individual/activity           
-[76] "fBodyBodyGyroMag.mean.."  (numeric) mean value of observations collected for individual/activity           
-[77] "fBodyBodyGyroMag.std.." (numeric) mean value of observations collected for individual/activity                        
-[78] "fBodyBodyGyroMag.meanFreq.."  (numeric) mean value of observations collected for individual/activity           
-[79] "fBodyBodyGyroJerkMag.mean.."  (numeric) mean value of observations collected for individual/activity                    
-[80] "fBodyBodyGyroJerkMag.std.." (numeric) mean value of observations collected for individual/activity                    
-[81] "fBodyBodyGyroJerkMag.meanFreq.."  (numeric) mean value of observations collected for individual/activity           
-[82] "angle.tBodyAccMean.gravity."  (numeric) mean value of observations collected for individual/activity           
-[83] "angle.tBodyAccJerkMean..gravityMean." (numeric) mean value of observations collected for individual/activity           
-[84] "angle.tBodyGyroMean.gravityMean."    (numeric) mean value of observations collected for individual/activity           
-[85] "angle.tBodyGyroJerkMean.gravityMean." (numeric) mean value of observations collected for individual/activity           
-[86] "angle.X.gravityMean."   (numeric) mean value of observations collected for individual/activity           
-[87] "angle.Y.gravityMean." (numeric) mean value of observations collected for individual/activity                        
-[88] "angle.Z.gravityMean." (numeric) mean value of observations collected for individual/activity           
+Index | Column Name|Description
+:----- | :-------------| :-------------
+1 | "subject"|(Factor) 1:30 identifying the individual subject for whom the data was collected.
+2|"activity"|(Factor) 1:6, labels: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
+3|meanof_meanoftbodyacc-mean()-x| (numeric) mean of the observations for the orignal dataset
+4|meanof_meanoftbodyacc-mean()-y| (numeric) mean of the observations for the orignal dataset
+5|meanof_meanoftbodyacc-mean()-z| (numeric) mean of the observations for the orignal dataset
+6|meanof_meanoftbodyacc-std()-x| (numeric) mean of the observations for the orignal dataset
+7|meanof_meanoftbodyacc-std()-y| (numeric) mean of the observations for the orignal dataset
+8|meanof_meanoftbodyacc-std()-z| (numeric) mean of the observations for the orignal dataset
+9|meanof_meanoftgravityacc-mean()-x| (numeric) mean of the observations for the orignal dataset
+10|meanof_meanoftgravityacc-mean()-y| (numeric) mean of the observations for the orignal dataset
+11|meanof_meanoftgravityacc-mean()-z| (numeric) mean of the observations for the orignal dataset
+12|meanof_meanoftgravityacc-std()-x| (numeric) mean of the observations for the orignal dataset
+13|meanof_meanoftgravityacc-std()-y| (numeric) mean of the observations for the orignal dataset
+14|meanof_meanoftgravityacc-std()-z| (numeric) mean of the observations for the orignal dataset
+15|meanof_meanoftbodyaccjerk-mean()-x| (numeric) mean of the observations for the orignal dataset
+16|meanof_meanoftbodyaccjerk-mean()-y| (numeric) mean of the observations for the orignal dataset
+17|meanof_meanoftbodyaccjerk-mean()-z| (numeric) mean of the observations for the orignal dataset
+18|meanof_meanoftbodyaccjerk-std()-x| (numeric) mean of the observations for the orignal dataset
+19|meanof_meanoftbodyaccjerk-std()-y| (numeric) mean of the observations for the orignal dataset
+20|meanof_meanoftbodyaccjerk-std()-z| (numeric) mean of the observations for the orignal dataset
+21|meanof_meanoftbodygyro-mean()-x| (numeric) mean of the observations for the orignal dataset
+22|meanof_meanoftbodygyro-mean()-y| (numeric) mean of the observations for the orignal dataset
+23|meanof_meanoftbodygyro-mean()-z| (numeric) mean of the observations for the orignal dataset
+24|meanof_meanoftbodygyro-std()-x| (numeric) mean of the observations for the orignal dataset
+25|meanof_meanoftbodygyro-std()-y| (numeric) mean of the observations for the orignal dataset
+26|meanof_meanoftbodygyro-std()-z| (numeric) mean of the observations for the orignal dataset
+27|meanof_meanoftbodygyrojerk-mean()-x| (numeric) mean of the observations for the orignal dataset
+28|meanof_meanoftbodygyrojerk-mean()-y| (numeric) mean of the observations for the orignal dataset
+29|meanof_meanoftbodygyrojerk-mean()-z| (numeric) mean of the observations for the orignal dataset
+30|meanof_meanoftbodygyrojerk-std()-x| (numeric) mean of the observations for the orignal dataset
+31|meanof_meanoftbodygyrojerk-std()-y| (numeric) mean of the observations for the orignal dataset
+32|meanof_meanoftbodygyrojerk-std()-z| (numeric) mean of the observations for the orignal dataset
+33|meanof_meanoftbodyaccmag-mean()| (numeric) mean of the observations for the orignal dataset
+34|meanof_meanoftbodyaccmag-std()| (numeric) mean of the observations for the orignal dataset
+35|meanof_meanoftgravityaccmag-mean()| (numeric) mean of the observations for the orignal dataset
+36|meanof_meanoftgravityaccmag-std()| (numeric) mean of the observations for the orignal dataset
+37|meanof_meanoftbodyaccjerkmag-mean()| (numeric) mean of the observations for the orignal dataset
+38|meanof_meanoftbodyaccjerkmag-std()| (numeric) mean of the observations for the orignal dataset
+39|meanof_meanoftbodygyromag-mean()| (numeric) mean of the observations for the orignal dataset
+40|meanof_meanoftbodygyromag-std()| (numeric) mean of the observations for the orignal dataset
+41|meanof_meanoftbodygyrojerkmag-mean()| (numeric) mean of the observations for the orignal dataset
+42|meanof_meanoftbodygyrojerkmag-std()| (numeric) mean of the observations for the orignal dataset
+43|meanof_meanoffbodyacc-mean()-x| (numeric) mean of the observations for the orignal dataset
+44|meanof_meanoffbodyacc-mean()-y| (numeric) mean of the observations for the orignal dataset
+45|meanof_meanoffbodyacc-mean()-z| (numeric) mean of the observations for the orignal dataset
+46|meanof_meanoffbodyacc-std()-x| (numeric) mean of the observations for the orignal dataset
+47|meanof_meanoffbodyacc-std()-y| (numeric) mean of the observations for the orignal dataset
+48|meanof_meanoffbodyacc-std()-z| (numeric) mean of the observations for the orignal dataset
+49|meanof_meanoffbodyacc-meanfreq()-x| (numeric) mean of the observations for the orignal dataset
+50|meanof_meanoffbodyacc-meanfreq()-y| (numeric) mean of the observations for the orignal dataset
+51|meanof_meanoffbodyacc-meanfreq()-z| (numeric) mean of the observations for the orignal dataset
+52|meanof_meanoffbodyaccjerk-mean()-x| (numeric) mean of the observations for the orignal dataset
+53|meanof_meanoffbodyaccjerk-mean()-y| (numeric) mean of the observations for the orignal dataset
+54|meanof_meanoffbodyaccjerk-mean()-z| (numeric) mean of the observations for the orignal dataset
+55|meanof_meanoffbodyaccjerk-std()-x| (numeric) mean of the observations for the orignal dataset
+56|meanof_meanoffbodyaccjerk-std()-y| (numeric) mean of the observations for the orignal dataset
+57|meanof_meanoffbodyaccjerk-std()-z| (numeric) mean of the observations for the orignal dataset
+58|meanof_meanoffbodyaccjerk-meanfreq()-x| (numeric) mean of the observations for the orignal dataset
+59|meanof_meanoffbodyaccjerk-meanfreq()-y| (numeric) mean of the observations for the orignal dataset
+60|meanof_meanoffbodyaccjerk-meanfreq()-z| (numeric) mean of the observations for the orignal dataset
+61|meanof_meanoffbodygyro-mean()-x| (numeric) mean of the observations for the orignal dataset
+62|meanof_meanoffbodygyro-mean()-y| (numeric) mean of the observations for the orignal dataset
+63|meanof_meanoffbodygyro-mean()-z| (numeric) mean of the observations for the orignal dataset
+64|meanof_meanoffbodygyro-std()-x| (numeric) mean of the observations for the orignal dataset
+65|meanof_meanoffbodygyro-std()-y| (numeric) mean of the observations for the orignal dataset
+66|meanof_meanoffbodygyro-std()-z| (numeric) mean of the observations for the orignal dataset
+67|meanof_meanoffbodygyro-meanfreq()-x| (numeric) mean of the observations for the orignal dataset
+68|meanof_meanoffbodygyro-meanfreq()-y| (numeric) mean of the observations for the orignal dataset
+69|meanof_meanoffbodygyro-meanfreq()-z| (numeric) mean of the observations for the orignal dataset
+70|meanof_meanoffbodyaccmag-mean()| (numeric) mean of the observations for the orignal dataset
+71|meanof_meanoffbodyaccmag-std()| (numeric) mean of the observations for the orignal dataset
+72|meanof_meanoffbodyaccmag-meanfreq()| (numeric) mean of the observations for the orignal dataset
+73|meanof_meanoffbodybodyaccjerkmag-mean()| (numeric) mean of the observations for the orignal dataset
+74|meanof_meanoffbodybodyaccjerkmag-std()| (numeric) mean of the observations for the orignal dataset
+75|meanof_meanoffbodybodyaccjerkmag-meanfreq()| (numeric) mean of the observations for the orignal dataset
+76|meanof_meanoffbodybodygyromag-mean()| (numeric) mean of the observations for the orignal dataset
+77|meanof_meanoffbodybodygyromag-std()| (numeric) mean of the observations for the orignal dataset
+78|meanof_meanoffbodybodygyromag-meanfreq()| (numeric) mean of the observations for the orignal dataset
+79|meanof_meanoffbodybodygyrojerkmag-mean()| (numeric) mean of the observations for the orignal dataset
+80|meanof_meanoffbodybodygyrojerkmag-std()| (numeric) mean of the observations for the orignal dataset
+81|meanof_meanoffbodybodygyrojerkmag-meanfreq()| (numeric) mean of the observations for the orignal dataset
+82|meanof_meanofangle(tbodyaccmean,gravity)| (numeric) mean of the observations for the orignal dataset
+83|meanof_meanofangle(tbodyaccjerkmean),gravitymean)| (numeric) mean of the observations for the orignal dataset
+84|meanof_meanofangle(tbodygyromean,gravitymean)| (numeric) mean of the observations for the orignal dataset
+85|meanof_meanofangle(tbodygyrojerkmean,gravitymean)| (numeric) mean of the observations for the orignal dataset
+86|meanof_meanofangle(x,gravitymean)| (numeric) mean of the observations for the orignal dataset
+87|meanof_meanofangle(y,gravitymean)| (numeric) mean of the observations for the orignal dataset
+88|meanof_meanofangle(z,gravitymean)| (numeric) mean of the observations for the orignal dataset
 
 ##Original Data set descriptions
 
