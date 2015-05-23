@@ -16,7 +16,8 @@ codebook.Rmd - details the data and variables in the output and original data se
 * Instructions are "Appropriately labels the data set with descriptive variable names."  To do this,set the column names based on the description of the dataset in the features.txt file. Note: These are not entirely friendly but because they are well documented I believe this are appropriately descriptive.
 * subset by the vector of selected columns (a) and create a new df
 * Instructions are "From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject." I understand this to mean group by subject and activity then calculate mean values. I do so using "group_by" and "summarise each"
-* "Uses descriptive activity names to name the activities in the data set" I do so by setting factor levels and labels for activity.
+* "Uses descriptive activity names to name the activities in the data set" I do so by setting factor levels and labels for activity. Activity labels are cleaned to remove uppercase and underscores.
+*additional modification is also performed on the variable names to indicate summarized values (prepend "meanof"), change abreviations (t,f to time and frequency), change all characters to lower case. Parenthesis,commas special characters are also removed. 
 * write final results to table "output.txt"  
 
 

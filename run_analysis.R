@@ -69,11 +69,19 @@ colnames(tidyd)<-tolower(colnames(tidyd))
 
 ##Uses descriptive activity names to name the activities in the data set
 act<-read.table("~/getdata-014-project/UCI HAR Dataset/activity_labels.txt")
-tidyd$activity <- factor(tidyd$activity, levels=act[,1],labels=act[,2])
+
+tidyd$activity <- factor(tidyd$activity, levels=act[,1],labels=tolower(sub("_","",act[,2])))
 a<-colnames(tidyd)
 b<-a[3:88]
-b<-paste("meanof_",b,sep="")
+b<-paste("meanof",b,sep="")
 b<-c(a[1:2],b)
+b<-sub("meanoft","meanoftime",b)
+b<-sub("meanoff","meanoffrequency",b)
+b<-gsub("\\(","",b)
+b<-gsub("\\)","",b)
+b<-gsub("\\,","",b)
+b<-gsub("\\-","",b)
+
 colnames(tidyd)<-b
 ## write final results to table "output.txt"  
 write.table(tidyd,file="output.txt", row.name=FALSE) 
