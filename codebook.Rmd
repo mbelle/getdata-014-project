@@ -13,92 +13,92 @@ Index | Column Name|Description
 :----- | :-------------| :-------------
 1 | "subject"|(Factor) 1:30 identifying the individual subject for whom the data was collected.
 2|"activity"|(Factor) 1:6, labels: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
-3|meanofmeanoftbodyaccmeanx| (numeric) mean of the observations for the orignal dataset
-4|meanofmeanoftbodyaccmeany| (numeric) mean of the observations for the orignal dataset
-5|meanofmeanoftbodyaccmeanz| (numeric) mean of the observations for the orignal dataset
-6|meanofmeanoftbodyaccstdx| (numeric) mean of the observations for the orignal dataset
-7|meanofmeanoftbodyaccstdy| (numeric) mean of the observations for the orignal dataset
-8|meanofmeanoftbodyaccstdz| (numeric) mean of the observations for the orignal dataset
-9|meanofmeanoftgravityaccmeanx| (numeric) mean of the observations for the orignal dataset
-10|meanofmeanoftgravityaccmeany| (numeric) mean of the observations for the orignal dataset
-11|meanofmeanoftgravityaccmeanz| (numeric) mean of the observations for the orignal dataset
-12|meanofmeanoftgravityaccstdx| (numeric) mean of the observations for the orignal dataset
-13|meanofmeanoftgravityaccstdy| (numeric) mean of the observations for the orignal dataset
-14|meanofmeanoftgravityaccstdz| (numeric) mean of the observations for the orignal dataset
-15|meanofmeanoftbodyaccjerkmeanx| (numeric) mean of the observations for the orignal dataset
-16|meanofmeanoftbodyaccjerkmeany| (numeric) mean of the observations for the orignal dataset
-17|meanofmeanoftbodyaccjerkmeanz| (numeric) mean of the observations for the orignal dataset
-18|meanofmeanoftbodyaccjerkstdx| (numeric) mean of the observations for the orignal dataset
-19|meanofmeanoftbodyaccjerkstdy| (numeric) mean of the observations for the orignal dataset
-20|meanofmeanoftbodyaccjerkstdz| (numeric) mean of the observations for the orignal dataset
-21|meanofmeanoftbodygyromeanx| (numeric) mean of the observations for the orignal dataset
-22|meanofmeanoftbodygyromeany| (numeric) mean of the observations for the orignal dataset
-23|meanofmeanoftbodygyromeanz| (numeric) mean of the observations for the orignal dataset
-24|meanofmeanoftbodygyrostdx| (numeric) mean of the observations for the orignal dataset
-25|meanofmeanoftbodygyrostdy| (numeric) mean of the observations for the orignal dataset
-26|meanofmeanoftbodygyrostdz| (numeric) mean of the observations for the orignal dataset
-27|meanofmeanoftbodygyrojerkmeanx| (numeric) mean of the observations for the orignal dataset
-28|meanofmeanoftbodygyrojerkmeany| (numeric) mean of the observations for the orignal dataset
-29|meanofmeanoftbodygyrojerkmeanz| (numeric) mean of the observations for the orignal dataset
-30|meanofmeanoftbodygyrojerkstdx| (numeric) mean of the observations for the orignal dataset
-31|meanofmeanoftbodygyrojerkstdy| (numeric) mean of the observations for the orignal dataset
-32|meanofmeanoftbodygyrojerkstdz| (numeric) mean of the observations for the orignal dataset
-33|meanofmeanoftbodyaccmagmean| (numeric) mean of the observations for the orignal dataset
-34|meanofmeanoftbodyaccmagstd| (numeric) mean of the observations for the orignal dataset
-35|meanofmeanoftgravityaccmagmean| (numeric) mean of the observations for the orignal dataset
-36|meanofmeanoftgravityaccmagstd| (numeric) mean of the observations for the orignal dataset
-37|meanofmeanoftbodyaccjerkmagmean| (numeric) mean of the observations for the orignal dataset
-38|meanofmeanoftbodyaccjerkmagstd| (numeric) mean of the observations for the orignal dataset
-39|meanofmeanoftbodygyromagmean| (numeric) mean of the observations for the orignal dataset
-40|meanofmeanoftbodygyromagstd| (numeric) mean of the observations for the orignal dataset
-41|meanofmeanoftbodygyrojerkmagmean| (numeric) mean of the observations for the orignal dataset
-42|meanofmeanoftbodygyrojerkmagstd| (numeric) mean of the observations for the orignal dataset
-43|meanofmeanoffbodyaccmeanx| (numeric) mean of the observations for the orignal dataset
-44|meanofmeanoffbodyaccmeany| (numeric) mean of the observations for the orignal dataset
-45|meanofmeanoffbodyaccmeanz| (numeric) mean of the observations for the orignal dataset
-46|meanofmeanoffbodyaccstdx| (numeric) mean of the observations for the orignal dataset
-47|meanofmeanoffbodyaccstdy| (numeric) mean of the observations for the orignal dataset
-48|meanofmeanoffbodyaccstdz| (numeric) mean of the observations for the orignal dataset
-49|meanofmeanoffbodyaccmeanfreqx| (numeric) mean of the observations for the orignal dataset
-50|meanofmeanoffbodyaccmeanfreqy| (numeric) mean of the observations for the orignal dataset
-51|meanofmeanoffbodyaccmeanfreqz| (numeric) mean of the observations for the orignal dataset
-52|meanofmeanoffbodyaccjerkmeanx| (numeric) mean of the observations for the orignal dataset
-53|meanofmeanoffbodyaccjerkmeany| (numeric) mean of the observations for the orignal dataset
-54|meanofmeanoffbodyaccjerkmeanz| (numeric) mean of the observations for the orignal dataset
-55|meanofmeanoffbodyaccjerkstdx| (numeric) mean of the observations for the orignal dataset
-56|meanofmeanoffbodyaccjerkstdy| (numeric) mean of the observations for the orignal dataset
-57|meanofmeanoffbodyaccjerkstdz| (numeric) mean of the observations for the orignal dataset
-58|meanofmeanoffbodyaccjerkmeanfreqx| (numeric) mean of the observations for the orignal dataset
-59|meanofmeanoffbodyaccjerkmeanfreqy| (numeric) mean of the observations for the orignal dataset
-60|meanofmeanoffbodyaccjerkmeanfreqz| (numeric) mean of the observations for the orignal dataset
-61|meanofmeanoffbodygyromeanx| (numeric) mean of the observations for the orignal dataset
-62|meanofmeanoffbodygyromeany| (numeric) mean of the observations for the orignal dataset
-63|meanofmeanoffbodygyromeanz| (numeric) mean of the observations for the orignal dataset
-64|meanofmeanoffbodygyrostdx| (numeric) mean of the observations for the orignal dataset
-65|meanofmeanoffbodygyrostdy| (numeric) mean of the observations for the orignal dataset
-66|meanofmeanoffbodygyrostdz| (numeric) mean of the observations for the orignal dataset
-67|meanofmeanoffbodygyromeanfreqx| (numeric) mean of the observations for the orignal dataset
-68|meanofmeanoffbodygyromeanfreqy| (numeric) mean of the observations for the orignal dataset
-69|meanofmeanoffbodygyromeanfreqz| (numeric) mean of the observations for the orignal dataset
-70|meanofmeanoffbodyaccmagmean| (numeric) mean of the observations for the orignal dataset
-71|meanofmeanoffbodyaccmagstd| (numeric) mean of the observations for the orignal dataset
-72|meanofmeanoffbodyaccmagmeanfreq| (numeric) mean of the observations for the orignal dataset
-73|meanofmeanoffbodybodyaccjerkmagmean| (numeric) mean of the observations for the orignal dataset
-74|meanofmeanoffbodybodyaccjerkmagstd| (numeric) mean of the observations for the orignal dataset
-75|meanofmeanoffbodybodyaccjerkmagmeanfreq| (numeric) mean of the observations for the orignal dataset
-76|meanofmeanoffbodybodygyromagmean| (numeric) mean of the observations for the orignal dataset
-77|meanofmeanoffbodybodygyromagstd| (numeric) mean of the observations for the orignal dataset
-78|meanofmeanoffbodybodygyromagmeanfreq| (numeric) mean of the observations for the orignal dataset
-79|meanofmeanoffbodybodygyrojerkmagmean| (numeric) mean of the observations for the orignal dataset
-80|meanofmeanoffbodybodygyrojerkmagstd| (numeric) mean of the observations for the orignal dataset
-81|meanofmeanoffbodybodygyrojerkmagmeanfreq| (numeric) mean of the observations for the orignal dataset
-82|meanofmeanofangletbodyaccmeangravity| (numeric) mean of the observations for the orignal dataset
-83|meanofmeanofangletbodyaccjerkmeangravitymean| (numeric) mean of the observations for the orignal dataset
-84|meanofmeanofangletbodygyromeangravitymean| (numeric) mean of the observations for the orignal dataset
-85|meanofmeanofangletbodygyrojerkmeangravitymean| (numeric) mean of the observations for the orignal dataset
-86|meanofmeanofanglexgravitymean| (numeric) mean of the observations for the orignal dataset
-87|meanofmeanofangleygravitymean| (numeric) mean of the observations for the orignal dataset
-88|meanofmeanofanglezgravitymean| (numeric) mean of the observations for the orignal dataset
+3|meanoftimebodyaccelerationmeanx|(numeric) mean of the observations for the orignal dataset
+4|meanoftimebodyaccelerationmeany|(numeric) mean of the observations for the orignal dataset
+5|meanoftimebodyaccelerationmeanz|(numeric) mean of the observations for the orignal dataset
+6|meanoftimebodyaccelerationstdx|(numeric) mean of the observations for the orignal dataset
+7|meanoftimebodyaccelerationstdy|(numeric) mean of the observations for the orignal dataset
+8|meanoftimebodyaccelerationstdz|(numeric) mean of the observations for the orignal dataset
+9|meanoftimegravityaccelerationmeanx|(numeric) mean of the observations for the orignal dataset
+10|meanoftimegravityaccelerationmeany|(numeric) mean of the observations for the orignal dataset
+11|meanoftimegravityaccelerationmeanz|(numeric) mean of the observations for the orignal dataset
+12|meanoftimegravityaccelerationstdx|(numeric) mean of the observations for the orignal dataset
+13|meanoftimegravityaccelerationstdy|(numeric) mean of the observations for the orignal dataset
+14|meanoftimegravityaccelerationstdz|(numeric) mean of the observations for the orignal dataset
+15|meanoftimebodyaccelerationjerkmeanx|(numeric) mean of the observations for the orignal dataset
+16|meanoftimebodyaccelerationjerkmeany|(numeric) mean of the observations for the orignal dataset
+17|meanoftimebodyaccelerationjerkmeanz|(numeric) mean of the observations for the orignal dataset
+18|meanoftimebodyaccelerationjerkstdx|(numeric) mean of the observations for the orignal dataset
+19|meanoftimebodyaccelerationjerkstdy|(numeric) mean of the observations for the orignal dataset
+20|meanoftimebodyaccelerationjerkstdz|(numeric) mean of the observations for the orignal dataset
+21|meanoftimebodygyromeanx|(numeric) mean of the observations for the orignal dataset
+22|meanoftimebodygyromeany|(numeric) mean of the observations for the orignal dataset
+23|meanoftimebodygyromeanz|(numeric) mean of the observations for the orignal dataset
+24|meanoftimebodygyrostdx|(numeric) mean of the observations for the orignal dataset
+25|meanoftimebodygyrostdy|(numeric) mean of the observations for the orignal dataset
+26|meanoftimebodygyrostdz|(numeric) mean of the observations for the orignal dataset
+27|meanoftimebodygyrojerkmeanx|(numeric) mean of the observations for the orignal dataset
+28|meanoftimebodygyrojerkmeany|(numeric) mean of the observations for the orignal dataset
+29|meanoftimebodygyrojerkmeanz|(numeric) mean of the observations for the orignal dataset
+30|meanoftimebodygyrojerkstdx|(numeric) mean of the observations for the orignal dataset
+31|meanoftimebodygyrojerkstdy|(numeric) mean of the observations for the orignal dataset
+32|meanoftimebodygyrojerkstdz|(numeric) mean of the observations for the orignal dataset
+33|meanoftimebodyaccelerationmagmean|(numeric) mean of the observations for the orignal dataset
+34|meanoftimebodyaccelerationmagstd|(numeric) mean of the observations for the orignal dataset
+35|meanoftimegravityaccelerationmagmean|(numeric) mean of the observations for the orignal dataset
+36|meanoftimegravityaccelerationmagstd|(numeric) mean of the observations for the orignal dataset
+37|meanoftimebodyaccelerationjerkmagmean|(numeric) mean of the observations for the orignal dataset
+38|meanoftimebodyaccelerationjerkmagstd|(numeric) mean of the observations for the orignal dataset
+39|meanoftimebodygyromagmean|(numeric) mean of the observations for the orignal dataset
+40|meanoftimebodygyromagstd|(numeric) mean of the observations for the orignal dataset
+41|meanoftimebodygyrojerkmagmean|(numeric) mean of the observations for the orignal dataset
+42|meanoftimebodygyrojerkmagstd|(numeric) mean of the observations for the orignal dataset
+43|meanoffrequencybodyaccelerationmeanx|(numeric) mean of the observations for the orignal dataset
+44|meanoffrequencybodyaccelerationmeany|(numeric) mean of the observations for the orignal dataset
+45|meanoffrequencybodyaccelerationmeanz|(numeric) mean of the observations for the orignal dataset
+46|meanoffrequencybodyaccelerationstdx|(numeric) mean of the observations for the orignal dataset
+47|meanoffrequencybodyaccelerationstdy|(numeric) mean of the observations for the orignal dataset
+48|meanoffrequencybodyaccelerationstdz|(numeric) mean of the observations for the orignal dataset
+49|meanoffrequencybodyaccelerationmeanfreqx|(numeric) mean of the observations for the orignal dataset
+50|meanoffrequencybodyaccelerationmeanfreqy|(numeric) mean of the observations for the orignal dataset
+51|meanoffrequencybodyaccelerationmeanfreqz|(numeric) mean of the observations for the orignal dataset
+52|meanoffrequencybodyaccelerationjerkmeanx|(numeric) mean of the observations for the orignal dataset
+53|meanoffrequencybodyaccelerationjerkmeany|(numeric) mean of the observations for the orignal dataset
+54|meanoffrequencybodyaccelerationjerkmeanz|(numeric) mean of the observations for the orignal dataset
+55|meanoffrequencybodyaccelerationjerkstdx|(numeric) mean of the observations for the orignal dataset
+56|meanoffrequencybodyaccelerationjerkstdy|(numeric) mean of the observations for the orignal dataset
+57|meanoffrequencybodyaccelerationjerkstdz|(numeric) mean of the observations for the orignal dataset
+58|meanoffrequencybodyaccelerationjerkmeanfreqx|(numeric) mean of the observations for the orignal dataset
+59|meanoffrequencybodyaccelerationjerkmeanfreqy|(numeric) mean of the observations for the orignal dataset
+60|meanoffrequencybodyaccelerationjerkmeanfreqz|(numeric) mean of the observations for the orignal dataset
+61|meanoffrequencybodygyromeanx|(numeric) mean of the observations for the orignal dataset
+62|meanoffrequencybodygyromeany|(numeric) mean of the observations for the orignal dataset
+63|meanoffrequencybodygyromeanz|(numeric) mean of the observations for the orignal dataset
+64|meanoffrequencybodygyrostdx|(numeric) mean of the observations for the orignal dataset
+65|meanoffrequencybodygyrostdy|(numeric) mean of the observations for the orignal dataset
+66|meanoffrequencybodygyrostdz|(numeric) mean of the observations for the orignal dataset
+67|meanoffrequencybodygyromeanfreqx|(numeric) mean of the observations for the orignal dataset
+68|meanoffrequencybodygyromeanfreqy|(numeric) mean of the observations for the orignal dataset
+69|meanoffrequencybodygyromeanfreqz|(numeric) mean of the observations for the orignal dataset
+70|meanoffrequencybodyaccelerationmagmean|(numeric) mean of the observations for the orignal dataset
+71|meanoffrequencybodyaccelerationmagstd|(numeric) mean of the observations for the orignal dataset
+72|meanoffrequencybodyaccelerationmagmeanfreq|(numeric) mean of the observations for the orignal dataset
+73|meanoffrequencybodybodyaccelerationjerkmagmean|(numeric) mean of the observations for the orignal dataset
+74|meanoffrequencybodybodyaccelerationjerkmagstd|(numeric) mean of the observations for the orignal dataset
+75|meanoffrequencybodybodyaccelerationjerkmagmeanfreq|(numeric) mean of the observations for the orignal dataset
+76|meanoffrequencybodybodygyromagmean|(numeric) mean of the observations for the orignal dataset
+77|meanoffrequencybodybodygyromagstd|(numeric) mean of the observations for the orignal dataset
+78|meanoffrequencybodybodygyromagmeanfreq|(numeric) mean of the observations for the orignal dataset
+79|meanoffrequencybodybodygyrojerkmagmean|(numeric) mean of the observations for the orignal dataset
+80|meanoffrequencybodybodygyrojerkmagstd|(numeric) mean of the observations for the orignal dataset
+81|meanoffrequencybodybodygyrojerkmagmeanfreq|(numeric) mean of the observations for the orignal dataset
+82|meanofangletbodyaccelerationmeangravity|(numeric) mean of the observations for the orignal dataset
+83|meanofangletbodyaccelerationjerkmeangravitymean|(numeric) mean of the observations for the orignal dataset
+84|meanofangletbodygyromeangravitymean|(numeric) mean of the observations for the orignal dataset
+85|meanofangletbodygyrojerkmeangravitymean|(numeric) mean of the observations for the orignal dataset
+86|meanofanglexgravitymean|(numeric) mean of the observations for the orignal dataset
+87|meanofangleygravitymean|(numeric) mean of the observations for the orignal dataset
+88|meanofanglezgravitymean|(numeric) mean of the observations for the orignal dataset
 
 ##Original Data set descriptions
 

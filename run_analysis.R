@@ -52,8 +52,8 @@ a<-c(1,2,a)
 
 ##  Appropriately labels the data set with descriptive variable names. 
 ## set the column names based on the description of the dataset in the features.txt file.  
-##These are not entirely friendly but because they are well documented I believe this are appropriately descriptive
-cols<-read.table("~/getdata-014-project/UCI HAR Dataset/features.txt")
+##These will be cleaned later
+
 vars<-as.character(cols[,2])
 col1<-c("subject","activity",vars)
 colnames(allObs)<-col1
@@ -66,23 +66,27 @@ msObs<-allObs[,a]
 tidyd<-group_by(msObs,subject,activity)%>%summarise_each(funs(mean))
 ##clean up columns names
 colnames(tidyd)<-tolower(colnames(tidyd))
-
-##Uses descriptive activity names to name the activities in the data set
-act<-read.table("~/getdata-014-project/UCI HAR Dataset/activity_labels.txt")
-
-tidyd$activity <- factor(tidyd$activity, levels=act[,1],labels=tolower(sub("_","",act[,2])))
 a<-colnames(tidyd)
 b<-a[3:88]
 b<-paste("meanof",b,sep="")
 b<-c(a[1:2],b)
-b<-sub("meanoft","meanoftime",b)
-b<-sub("meanoff","meanoffrequency",b)
 b<-gsub("\\(","",b)
 b<-gsub("\\)","",b)
 b<-gsub("\\,","",b)
 b<-gsub("\\-","",b)
-
+b<-sub("meanoft","meanoftime",b)
+b<-sub("meanoff","meanoffrequency",b)
+b<-sub("acc","acceleration",b)
 colnames(tidyd)<-b
+
+
+
+##Uses descriptive activity names to name the activities in the data set
+act<-read.table("~/getdata-014-project/UCI HAR Dataset/activity_labels.txt")
+tidyd$activity <- factor(tidyd$activity, levels=act[,1],labels=tolower(sub("_","",act[,2])))
+
+
+
 ## write final results to table "output.txt"  
 write.table(tidyd,file="output.txt", row.name=FALSE) 
 
