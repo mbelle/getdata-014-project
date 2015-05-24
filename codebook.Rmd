@@ -16,31 +16,31 @@ The code book for the original set can be found below or http://archive.ics.uci.
 
 This dataset contains summarized (mean) data for a number of readings taken from the original data.  Subject and Activity are included for each row. In addition, the mean value for each subject and activity have been calculated for each of the 86 measurements listed below. These measurements are the mean values for any variable in the original data that inlcuded "mean" or "std" in the name.
 
-Full details from the original data collection are also included below.
+Full details from the original data collection are also included below. Fourier signals are for 128 samples at 50 Hz. X,Y,Z indicate axis of data collected.
 
 
 Index | Column Name|Description
 :----- | :-------------| :-------------
 1 | "subject"|(Factor) 1:30 identifying the individual subject for whom the data was collected.
 2|"activity"|(Factor) 1:6, labels: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
-3|meanoftimebodyaccelerationmeanx|(numeric) mean of the observations for the orignal dataset
-4|meanoftimebodyaccelerationmeany|(numeric) mean of the observations for the orignal dataset
-5|meanoftimebodyaccelerationmeanz|(numeric) mean of the observations for the orignal dataset
-6|meanoftimebodyaccelerationstdx|(numeric) mean of the observations for the orignal dataset
-7|meanoftimebodyaccelerationstdy|(numeric) mean of the observations for the orignal dataset
-8|meanoftimebodyaccelerationstdz|(numeric) mean of the observations for the orignal dataset
-9|meanoftimegravityaccelerationmeanx|(numeric) mean of the observations for the orignal dataset
-10|meanoftimegravityaccelerationmeany|(numeric) mean of the observations for the orignal dataset
-11|meanoftimegravityaccelerationmeanz|(numeric) mean of the observations for the orignal dataset
-12|meanoftimegravityaccelerationstdx|(numeric) mean of the observations for the orignal dataset
-13|meanoftimegravityaccelerationstdy|(numeric) mean of the observations for the orignal dataset
-14|meanoftimegravityaccelerationstdz|(numeric) mean of the observations for the orignal dataset
-15|meanoftimebodyaccelerationjerkmeanx|(numeric) mean of the observations for the orignal dataset
-16|meanoftimebodyaccelerationjerkmeany|(numeric) mean of the observations for the orignal dataset
-17|meanoftimebodyaccelerationjerkmeanz|(numeric) mean of the observations for the orignal dataset
-18|meanoftimebodyaccelerationjerkstdx|(numeric) mean of the observations for the orignal dataset
-19|meanoftimebodyaccelerationjerkstdy|(numeric) mean of the observations for the orignal dataset
-20|meanoftimebodyaccelerationjerkstdz|(numeric) mean of the observations for the orignal dataset
+3|meanoftimebodyaccelerationmeanx|(numeric) mean of the observations for the orignal dataset for time body accleration mean X axis captured at a constant rate of 50 Hz
+4|meanoftimebodyaccelerationmeany|(numeric) mean of the observations for the orignal dataset for time body accleration mean Y axis captured at a constant rate of 50 Hz
+5|meanoftimebodyaccelerationmeanz|(numeric) mean of the observations for the orignal dataset for time body accleration mean Z axis captured at a constant rate of 50 Hz
+6|meanoftimebodyaccelerationstdx|(numeric) mean of the observations for the orignal dataset for time body accleration Standard Deviation X axis captured at a constant rate of 50 Hz
+7|meanoftimebodyaccelerationstdy|(numeric) mean of the observations for the orignal dataset for time body accleration Standard Deviation Y axis captured at a constant rate of 50 Hz
+8|meanoftimebodyaccelerationstdz|(numeric) mean of the observations for the orignal dataset for time body accleration Standard Deviation Z axis captured at a constant rate of 50 Hz
+9|meanoftimegravityaccelerationmeanx|(numeric) mean of the observations for the orignal dataset for time gravity accleration mean X axis captured at a constant rate of 50 Hz
+10|meanoftimegravityaccelerationmeany|(numeric) mean of the observations for the orignal dataset for time gravity accleration mean Y axis captured at a constant rate of 50 Hz
+11|meanoftimegravityaccelerationmeanz|(numeric) mean of the observations for the orignal dataset for time gravity accleration mean Z axis captured at a constant rate of 50 Hz
+12|meanoftimegravityaccelerationstdx|(numeric) mean of the observations for the orignal dataset for time gravity accleration standard deviation X axis captured at a constant rate of 50 Hz
+13|meanoftimegravityaccelerationstdy|(numeric) mean of the observations for the orignal dataset for time gravity accleration standard deviation Y axis captured at a constant rate of 50 Hz
+14|meanoftimegravityaccelerationstdz|(numeric) mean of the observations for the orignal dataset for time gravity accleration standard deviation Z axis captured at a constant rate of 50 Hz
+15|meanoftimebodyaccelerationjerkmeanx|(numeric) mean of the observations for the orignal dataset for time body accleration jerk mean X axis captured at a constant rate of 50 Hz
+16|meanoftimebodyaccelerationjerkmeany|(numeric) mean of the observations for the orignal dataset for time body accleration jerk mean Y axis captured at a constant rate of 50 Hz
+17|meanoftimebodyaccelerationjerkmeanz|(numeric) mean of the observations for the orignal dataset for time body accleration jerk mean Z axis captured at a constant rate of 50 Hz
+18|meanoftimebodyaccelerationjerkstdx|(numeric) mean of the observations for the orignal dataset for time body accleration jerk standard deviation X axis captured at a constant rate of 50 Hz
+19|meanoftimebodyaccelerationjerkstdy|(numeric) mean of the observations for the orignal dataset for time body accleration jerk standard deviation Y axis captured at a constant rate of 50 Hz
+20|meanoftimebodyaccelerationjerkstdz|(numeric) mean of the observations for the orignal datasetfor time body accleration jerk standard deviation Z axis captured at a constant rate of 50 Hz
 21|meanoftimebodygyromeanx|(numeric) mean of the observations for the orignal dataset
 22|meanoftimebodygyromeany|(numeric) mean of the observations for the orignal dataset
 23|meanoftimebodygyromeanz|(numeric) mean of the observations for the orignal dataset
