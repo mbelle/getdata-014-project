@@ -4,10 +4,20 @@ author: "M Bellettiere"
 date: "May 21, 2015"
 output: html_document
 ---
+##raw data
+Raw data can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  however the script will attempt to download the data to a subdirectory in the working directory before starting.
 
-##Variable Names and descriptions
+The code book for the original set can be found below or http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-This dataset contains summarized (mean) data for a number of readings taken from the original data.  Subject and Activity are included for each row. In addition, the mean value for each subject and activity have been calculated for each of the 86 measurements listed below. Full details from the original data collection are also included below.
+
+
+
+##Variable Names and descriptions for "output.txt"
+
+This dataset contains summarized (mean) data for a number of readings taken from the original data.  Subject and Activity are included for each row. In addition, the mean value for each subject and activity have been calculated for each of the 86 measurements listed below. These measurements are the mean values for any variable in the original data that inlcuded "mean" or "std" in the name.
+
+Full details from the original data collection are also included below.
+
 
 Index | Column Name|Description
 :----- | :-------------| :-------------

@@ -1,13 +1,14 @@
 # getdata-014-project
 ##files
 run_analysis.R - downloads data, combines and processes to produce output.txt
+
 codebook.Rmd - details the data and variables in the output and original data set
 
-##The steps to produce the output file are as follows:
+##The steps which produce the output file are as follows:
 * check if data exisits, if not, load data file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip then unzip file. If data exisits then this is skipped.
 * load dplyr - this will create a warning but will not stop execution of code
 * load subject data,load test data (y is activity x is variable measurement data)
-* load train data y is activity x is variable data
+* load train data (y is activity x is variable data)
 * create tables with subject, activity, readings by cbind in order
 * rbind the training and the test sets to create one data set. Merge is not used because it can change the order of data
 * Instructions are "Extracts only the measurements on the mean and standard deviation for each measurement." To do this, Look for columns names containing either "-mean" or "-std." Then create vector index of the mean/std columns 
